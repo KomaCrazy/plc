@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content>
+  <Header>
+    <Version>1.1</Version>
+    <EnableOffset>True</EnableOffset>
+    <Project ID="e620503f-ac3f-45c4-936b-fa49e93fe466" Name="Auto Connect Project" Tracking="1472c91e-a513-44fb-85aa-d14eb8ec0c7d">
+      <DeviceType>NX102</DeviceType>
+      <DeviceModelFull>NX102-1020</DeviceModelFull>
+      <UnitVersion>1.35</UnitVersion>
+    </Project>
+    <CjMemorySettings>
+      <Area Type="HR" Size="0"/>
+      <Area Type="DM" Size="0"/>
+      <Area Type="EM" Size="0"/>
+    </CjMemorySettings>
+  </Header>
+  <Body>
+    <RetainVariable>
+      <Item Name="VAR://_Card1PowerFail" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_PowerOnHour" DataType="UDINT">
+        <Data>1858</Data>
+      </Item>
+      <Item Name="VAR://_PowerOnCount" DataType="UDINT">
+        <Data>142</Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.Exec" DataType="BOOL" Offset="0">
+        <Data>False</Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.DirName" DataType="STRING[64]">
+        <Data></Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.Password" DataType="STRING[33]">
+        <Data></Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.TargetUserProgram" DataType="BOOL" Offset="800">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.TargetIPAdr" DataType="BOOL" Offset="816">
+        <Data>False</Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.TargetVariable" DataType="BOOL" Offset="832">
+        <Data>False</Data>
+      </Item>
+      <Item Name="VAR://_Card1PrgTransferCmd.TargetMemory" DataType="BOOL" Offset="848">
+        <Data>False</Data>
+      </Item>
+      <Item Name="VAR://_DeviceOutHoldCfg" DataType="WORD">
+        <Data>0</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmd.Exec" DataType="BOOL" Offset="0">
+        <Data>False</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmd.DirName" DataType="STRING[64]">
+        <Data></Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmd.Password" DataType="STRING[33]">
+        <Data></Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetUserProgram" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetIPAdr" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetVariable" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetMemory" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetUnitConfig" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetAbsEncoder" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://_Card1RestoreCmdTargetOpcuaSPF" DataType="BOOL" Offset="0">
+        <Data>True</Data>
+      </Item>
+      <Item Name="VAR://data1" DataType="INT">
+        <Data>20</Data>
+      </Item>
+    </RetainVariable>
+    <AbsEncorder>
+      <Item Name="All">
+        <Data>0f000000000000000000000000000000cea67ffae620e6410ed0590dc6ec9b92000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</Data>
+      </Item>
+    </AbsEncorder>
+  </Body>
+</Content>
